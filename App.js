@@ -42,6 +42,7 @@ export default function App() {
   );
 }
 //placeholder
+//make separate component
 function HomeScreen() {
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
@@ -51,6 +52,7 @@ function HomeScreen() {
 }
 
 //placeholder
+//make separate component
 function SettingsScreen() {
   return( 
     <View style={{flex:1, alignItems: 'center', justifyContent: 'center'}}>
@@ -60,6 +62,7 @@ function SettingsScreen() {
 }
 
 //placeholder
+//make separate component
 function SearchScreen() {
   return(
     <View style={{flex:1, alignItems: 'center', justifyContent: 'center'}}>
@@ -67,18 +70,3 @@ function SearchScreen() {
     </View>
   )
 }
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'flex-end',
-    paddingTop: 40,
-    backgroundColor: '#ddd',
-  },
-  navBar: {
-    backgroundColor: 'skyblue',
-    padding: 33
-  },
-  contentContainer: {
-    flex: 1
-  }
-})
